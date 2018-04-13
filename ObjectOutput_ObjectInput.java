@@ -8,8 +8,8 @@ public class ObjectOutput_ObjectInput {
 
             Stock s[] = {
                     new Stock(1, "Quat", "Pana", 200000, "Khong Co"),
-                    new Stock(1, "Man Hinh", "Sony", 500000, "Khong Co"),
-                    new Stock(1, "Dien Thoai", "Iphone", 2200000, "Khong Co")
+                    new Stock(2, "Man Hinh", "Sony", 500000, "Khong Co"),
+                    new Stock(3, "Dien Thoai", "Iphone", 2200000, "Khong Co")
             };
 
             oos.writeObject(s);
